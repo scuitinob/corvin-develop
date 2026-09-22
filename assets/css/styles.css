@@ -431,3 +431,8 @@ kbd { padding:4px 8px; border:1px solid rgba(165,76,255,.45); border-bottom-widt
   .pill-hero-logo img { width:min(76vw,330px); }
   .pill-cta { align-items:flex-start; flex-direction:column; }
 }
+
+/* Official Microsoft Store badge */
+ms-store-badge { display:inline-flex; align-items:center; }
+ms-store-badge::part(img) { max-width:190px; width:100%; height:auto; }
+.mirage-page ms-store-badge::part(img) { max-width:205px; }
