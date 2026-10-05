@@ -510,7 +510,7 @@ ms-store-badge::part(img) { max-width:190px; width:100%; height:auto; }
 .relmuru-legal a { color:#ffc16a; }.relmuru-notice { border-color:var(--relmuru-amber); background:rgba(242,165,59,.07); }
 .relmuru-legal-wordmark { margin:0 auto 34px; text-align:center; font-size:clamp(2.1rem,5vw,3.5rem); font-weight:900; letter-spacing:.13em; }
 .relmuru-legal-wordmark span { display:block; margin-top:5px; color:#9fa6b3; font-size:.7rem; letter-spacing:.12em; text-transform:uppercase; }
-.relmuru-app-card { background:linear-gradient(145deg,rgba(242,165,59,.055),rgba(156,92,255,.10),rgba(57,216,232,.035)); border-color:rgba(156,92,255,.17); }
+.relmuru-app-card { position:relative; }
 .relmuru-card-mark { min-height:260px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:22px; border-radius:24px; border:1px solid rgba(156,92,255,.15); background:radial-gradient(circle at 50% 30%,rgba(156,92,255,.11),transparent 9rem),rgba(8,10,15,.62); }
 .relmuru-card-name { font-size:clamp(2rem,5vw,3rem); font-weight:900; letter-spacing:.12em; }.relmuru-card-tagline { margin-top:6px; color:#9ca4b2; font-size:.68rem; letter-spacing:.11em; text-transform:uppercase; }
 
@@ -563,8 +563,7 @@ ms-store-badge::part(img) { max-width:190px; width:100%; height:auto; }
 .relmuru-pill,.relmuru-kicker{border-color:rgba(255,101,31,.28);background:linear-gradient(90deg,rgba(255,94,22,.09),rgba(255,42,203,.05));color:#ffc071}
 .relmuru-primary,.relmuru-button{background:linear-gradient(100deg,#ff7119,#f02b9f 52%,#398cff);box-shadow:0 10px 34px rgba(199,48,190,.18)}
 .relmuru-info-card,.relmuru-safety-card{border-color:rgba(85,116,255,.18);background:linear-gradient(145deg,rgba(255,85,28,.045),rgba(183,40,255,.055),rgba(26,142,255,.045))}
-.relmuru-card-logo{display:block;width:min(100%,390px);height:auto;filter:drop-shadow(0 0 18px rgba(34,132,255,.13))}
-.relmuru-card-mark{background:radial-gradient(circle at 20% 30%,rgba(255,87,24,.10),transparent 10rem),radial-gradient(circle at 80% 65%,rgba(24,142,255,.11),transparent 11rem),#070811}
+.relmuru-card-logo{display:block;height:auto;filter:drop-shadow(0 0 18px rgba(255,92,24,.22)) drop-shadow(0 0 28px rgba(199,45,255,.18)) drop-shadow(0 0 34px rgba(34,132,255,.16))}
 @media(max-width:900px){.relmuru-orientation-showcase{grid-template-columns:1fr 1fr}.relmuru-orientation-card.landscape-card{grid-column:1/-1}.relmuru-brand-lockup{margin-inline:auto;align-items:center}.relmuru-brand-lockup>span{margin-left:0;text-align:center}}
 @media(max-width:600px){.relmuru-orientation-showcase{grid-template-columns:1fr}.relmuru-orientation-card.landscape-card{grid-column:auto}.relmuru-orientation-card,.relmuru-orientation-card img{min-height:300px}.relmuru-hero-visual img{aspect-ratio:4/3}.relmuru-logo{width:100%}}
 
