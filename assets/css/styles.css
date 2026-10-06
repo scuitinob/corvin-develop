@@ -224,6 +224,9 @@ section {
 }
 
 .contact-card a { color: #efbd85; }
+.contact-links { display:flex; flex-wrap:wrap; gap:10px 22px; align-items:center; }
+.contact-links a { text-decoration:none; }
+.contact-links a:hover { color:#ffd4a4; }
 
 footer {
   border-top: 1px solid var(--border);
