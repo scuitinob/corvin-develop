@@ -15,6 +15,8 @@ Then open `http://localhost:8080`.
 ## Structure
 
 - `/` — Corvin Develop website
+- `/ddew/` — DDEW product page
+- `/ddew/privacy/` — DDEW privacy policy (Google Play ready)
 - `/relmuru/` — Relmuru product/support page
 - `/relmuru/privacy/` — Relmuru privacy policy (English, Microsoft Store ready)
 - `/miragefold/` — MirageFold product page

@@ -633,3 +633,80 @@ ms-store-badge::part(img) { max-width:190px; width:100%; height:auto; }
  #funciones .relmuru-orientation-card img{height:300px}
  .relmuru-shot-card>img,.relmuru-shot-card.portrait-shot>img,.tray-shot-image{height:280px}
 }
+
+/* DDEW */
+.ddew-page {
+  --ddew-navy:#060b1b;
+  --ddew-panel:#0c1330;
+  --ddew-blue:#238cff;
+  --ddew-purple:#a33cff;
+  --ddew-pink:#ef47df;
+  --ddew-orange:#ff7a18;
+  background:
+    radial-gradient(circle at 12% 5%,rgba(35,140,255,.13),transparent 29rem),
+    radial-gradient(circle at 88% 12%,rgba(163,60,255,.14),transparent 31rem),
+    radial-gradient(circle at 64% 38%,rgba(255,122,24,.06),transparent 28rem),
+    linear-gradient(180deg,#050817 0%,#090b1c 50%,#050713 100%);
+}
+.ddew-header { background:rgba(5,8,23,.80); border-color:rgba(112,91,255,.18); }
+.ddew-hero { padding:76px 0 88px; overflow:hidden; position:relative; }
+.ddew-hero:after { content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background:linear-gradient(90deg,transparent,var(--ddew-blue),var(--ddew-purple),var(--ddew-orange),transparent); opacity:.55; }
+.ddew-hero-grid { display:grid; grid-template-columns:1.05fr .95fr; gap:58px; align-items:center; }
+.ddew-hero h1 { font-size:clamp(3.3rem,7vw,6.7rem); }
+.ddew-hero h1 span,.ddew-intro h2 span { background:linear-gradient(90deg,#55b6ff,var(--ddew-purple),#ff68d7,var(--ddew-orange)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+.ddew-pill,.ddew-kicker { display:inline-flex; border:1px solid rgba(120,85,255,.32); background:linear-gradient(90deg,rgba(35,140,255,.10),rgba(163,60,255,.11),rgba(255,122,24,.06)); color:#cbbdff; border-radius:999px; padding:7px 12px; font-size:.78rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
+.ddew-primary,.ddew-button { background:linear-gradient(100deg,#2d91ff,#7b50ff 50%,#c83ee8); color:#fff; border:0; box-shadow:0 10px 32px rgba(100,71,255,.22); }
+.ddew-logo-stage { display:flex; justify-content:center; align-items:center; min-height:430px; border:1px solid rgba(112,91,255,.18); border-radius:32px; background:radial-gradient(circle at 50% 42%,rgba(83,83,255,.16),transparent 48%),rgba(6,9,25,.42); box-shadow:0 34px 90px rgba(0,0,0,.34); }
+.ddew-logo-stage img { display:block; width:min(92%,540px); height:auto; filter:drop-shadow(0 24px 38px rgba(0,0,0,.30)); }
+.ddew-intro { padding:92px 0; background:rgba(255,255,255,.016); border-bottom:1px solid rgba(255,255,255,.055); }
+.ddew-intro h2,.ddew-section-heading h2 { font-size:clamp(2.25rem,4.8vw,4.5rem); letter-spacing:-.055em; line-height:1.02; margin:18px 0; }
+.ddew-intro p { color:#bac1cf; font-size:1.08rem; }
+.ddew-features { padding:96px 0; }
+.ddew-section-heading { max-width:760px; margin-bottom:34px; }
+.ddew-feature-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+.ddew-feature-card { padding:28px; border:1px solid rgba(108,88,232,.20); border-radius:22px; background:linear-gradient(145deg,rgba(37,137,255,.045),rgba(157,60,255,.06),rgba(255,122,24,.025)); }
+.ddew-feature-card>span { color:#ff9b4b; font-size:.72rem; font-weight:900; letter-spacing:.14em; }
+.ddew-feature-card h3 { margin:9px 0 8px; font-size:1.35rem; }
+.ddew-feature-card p { margin:0; color:#aeb7c7; }
+.ddew-showcase { margin:96px 0 28px; }
+.ddew-showcase .ddew-section-heading p { color:#aeb7c7; font-size:1.05rem; max-width:680px; }
+.ddew-showcase-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+.ddew-shot { margin:0; overflow:hidden; border:1px solid rgba(108,88,232,.22); border-radius:24px; background:linear-gradient(145deg,rgba(37,137,255,.05),rgba(157,60,255,.07),rgba(255,122,24,.03)); box-shadow:0 22px 60px rgba(0,0,0,.18); }
+.ddew-shot img { display:block; width:100%; aspect-ratio:2/3; object-fit:cover; background:#070b1a; }
+.ddew-shot figcaption { display:flex; flex-direction:column; gap:6px; padding:20px 20px 22px; }
+.ddew-shot figcaption strong { font-size:1.08rem; color:#f4f6fb; }
+.ddew-shot figcaption span { color:#aeb7c7; font-size:.94rem; line-height:1.55; }
+.ddew-local-card { display:flex; align-items:center; justify-content:space-between; gap:34px; margin-top:24px; padding:30px; border:1px solid rgba(107,88,240,.25); border-radius:24px; background:linear-gradient(110deg,rgba(36,141,255,.075),rgba(153,59,255,.08),rgba(255,119,24,.045)); }
+.ddew-local-card>div { max-width:720px; }
+.ddew-local-card h3 { margin:12px 0 7px; font-size:1.55rem; }
+.ddew-local-card p { margin:0; color:#b7bfcd; }
+.ddew-footer { border-color:rgba(112,91,255,.18); }
+.ddew-app-card { background:linear-gradient(145deg,rgba(37,137,255,.08),rgba(153,59,255,.09),rgba(255,122,24,.035)); border-color:rgba(112,91,255,.20); }
+.ddew-card-logo { filter:drop-shadow(0 0 22px rgba(71,102,255,.18)) drop-shadow(0 0 24px rgba(255,112,25,.10)); }
+.ddew-legal { max-width:820px; }
+.ddew-legal-logo { display:block; width:min(390px,84vw); height:auto; margin:0 auto 34px; filter:drop-shadow(0 0 24px rgba(81,93,255,.18)); }
+.ddew-legal a { color:#c8b9ff; }
+.ddew-notice { border-color:var(--ddew-purple); background:linear-gradient(90deg,rgba(37,137,255,.07),rgba(157,60,255,.08)); }
+@media(max-width:900px){
+  .ddew-hero-grid { grid-template-columns:1fr; }
+  .ddew-logo-stage { order:-1; min-height:0; padding:24px; }
+  .ddew-logo-stage img { width:min(78vw,430px); }
+  .ddew-showcase { margin:96px 0 28px; }
+.ddew-showcase .ddew-section-heading p { color:#aeb7c7; font-size:1.05rem; max-width:680px; }
+.ddew-showcase-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+.ddew-shot { margin:0; overflow:hidden; border:1px solid rgba(108,88,232,.22); border-radius:24px; background:linear-gradient(145deg,rgba(37,137,255,.05),rgba(157,60,255,.07),rgba(255,122,24,.03)); box-shadow:0 22px 60px rgba(0,0,0,.18); }
+.ddew-shot img { display:block; width:100%; aspect-ratio:2/3; object-fit:cover; background:#070b1a; }
+.ddew-shot figcaption { display:flex; flex-direction:column; gap:6px; padding:20px 20px 22px; }
+.ddew-shot figcaption strong { font-size:1.08rem; color:#f4f6fb; }
+.ddew-shot figcaption span { color:#aeb7c7; font-size:.94rem; line-height:1.55; }
+.ddew-local-card { align-items:flex-start; flex-direction:column; }
+}
+@media(max-width:600px){
+  .ddew-hero { padding:48px 0 66px; }
+  .ddew-feature-grid { grid-template-columns:1fr; }
+  .ddew-showcase { margin-top:72px; }
+  .ddew-showcase-grid { grid-template-columns:1fr; gap:16px; }
+  .ddew-shot { border-radius:20px; }
+  .ddew-logo-stage { border-radius:24px; }
+  .ddew-features,.ddew-intro { padding:72px 0; }
+}
