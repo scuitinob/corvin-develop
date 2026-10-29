@@ -62,11 +62,11 @@ nav {
 }
 
 .brand img {
-  width: 44px;
-  height: 44px;
-  object-fit: cover;
-  object-position: 50% 42%;
-  border-radius: 12px;
+  display: block;
+  width: auto;
+  height: 52px;
+  max-width: min(360px, 42vw);
+  object-fit: contain;
 }
 
 .navlinks {
